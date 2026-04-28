@@ -8,7 +8,7 @@ public class ExemploArrayList {
 		
 		// Cria a Collection ArrayList, do tipo Double, chamada notas
 		ArrayList<Double> notas = new ArrayList<Double>();
-		
+			
 		notas.add(7.0);
 		notas.add(5.0);
 		notas.add(4.0);

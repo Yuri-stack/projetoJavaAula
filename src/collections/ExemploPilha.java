@@ -37,8 +37,9 @@ public class ExemploPilha {
         contador = pilha.size();
         
         for (String prato : pilha) {
-        	System.out.printf("[%d] %s%n", contador, prato);
-        	contador --;
+        	/*System.out.printf("[%d] %s%n", contador, prato);
+        	contador --;*/
+        	System.out.println(prato);
         }
 
         // Remove mais um elemento do topo da pilha
