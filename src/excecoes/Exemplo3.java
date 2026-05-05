@@ -16,6 +16,7 @@ public class Exemplo3 {
 		} catch (ArrayIndexOutOfBoundsException e) {
 			System.err.println("\nExceção: " + e);
 			System.out.println("\nPosição Inválida");
+			
 		}catch(ExcecaoSimples e) {
 			System.out.println(e.getMessage());
 		}
